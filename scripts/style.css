@@ -1,0 +1,107 @@
+/* CSS Document */
+@import "https://fonts.googleapis.com/css2?family=Dosis&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+body {
+  background: #2d3436;
+}
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 6px;
+  padding: 10px;
+  background: #dfe6e9;
+  width: 70%;
+}
+#heading {
+  text-align: center;
+  color: #e84393;
+  margin-bottom: 10px;
+}
+#header {
+  margin-bottom: 16px;
+}
+#startQuizAndScoreDiv {
+  text-align: center;
+  width: 100%;
+}
+#scoreDiv {
+  margin-bottom: 9px;
+  color: #2d3436;
+}
+#startQuizBtn {
+  padding: 6px 12px;
+  background: none;
+  border: 1.1px solid #079992;
+  color: #079992;
+  border-radius: 3px;
+  margin: 8px 0px 13px 0px;
+  font-weight: 600;
+}
+#startQuizBtn:hover {
+  color: #dfe6e9;
+  background: #079992;
+}
+.scoreText,
+.outOf {
+  color: #3867d6;
+}
+#hr {
+  height: 0px;
+  border: none;
+  border-top: 0.4px solid grey;
+  margin: 0px 16% 0px 16%;
+}
+#QandABox {
+  margin: 0px 10px 0px 10px;
+}
+#questionDiv {
+  font-weight: bold;
+  color: #079992;
+  margin-bottom: 16px;
+}
+#answersDiv {
+  margin: 0px;
+}
+.answers {
+  margin-bottom: 10px;
+  border: 0.1px solid #2d3436;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+#nextBtn {
+  float: right;
+  padding: 3.3px 17px;
+  background: none;
+  border: 1.1px solid #079992;
+  color: #079992;
+  border-radius: 3px;
+  margin: 8px 0px 5px 0px;
+  font-weight: 600;
+}
+#nextBtn:hover {
+  color: #dfe6e9;
+  background: #079992;
+}
+.true {
+  background: #9feeb1;
+}
+.false {
+  background: #f1adb4;
+}
+@media only screen and (min-width: 768px) {
+  #wrapper {
+    width: 40%;
+  }
+}
+#answersDiv.disabled{
+  pointer-events: none;
+}
