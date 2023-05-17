@@ -10,7 +10,7 @@ const answersDiv = document.querySelector(`#answersDiv`);
 const nextBtn = document.querySelector(`#nextBtn`);
 
 const QUIZ_API_URL =
-  `https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple`;
+  `https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple`;
 
 let currentQuestionIndex = 0;
 let score = 0;

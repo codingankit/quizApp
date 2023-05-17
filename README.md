@@ -35,7 +35,7 @@ To run the app locally, follow these steps:
 
 ## Description
 
-The Quiz App is a web application that allows users to take quizzes on various topics. It presents a series of questions with multiple-choice answers, and provides immediate feedback on the correctness of the chosen answer. At the end of the quiz, the user can see their final score.
+The Quiz App is a web application that allows users to take quizzes on computer science related topics. It presents a series of questions with multiple-choice answers, and provides immediate feedback on the correctness of the chosen answer. At the end of the quiz, the user can see their final score.
 
 ## Customization
 
