@@ -46,3 +46,8 @@ Feel free to customize the app according to your needs. You can modify the quest
 Contributions are welcome! If you have any ideas or suggestions to improve this app, please create an issue or submit a pull request.
 
 That's just a basic template. Feel free to add more sections or customize it further based on your app's specific details.
+
+## License
+
+This project is licensed under the GNU General Public License v2.0. You can find the full text of the license in the [LICENSE](LICENSE) file.
+
